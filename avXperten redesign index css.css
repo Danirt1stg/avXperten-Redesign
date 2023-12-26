@@ -10,7 +10,16 @@ body
 
 }
 
+p
+{
+	font-family:"Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+}
 
+
+h1
+{
+	font-family:"Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif", "bold"ds
+}
 .header
 {
 
