@@ -19,7 +19,15 @@
 	
 	<div class="uheader">
 		
+		<div>
+		<input id="activate" type="checkbox"/>
+		<label for="activate"></label>
+		
+		
+			
 		<img class="menu" src="Images/Menu ikon.png"  alt=""/>
+		</div>
+		
 		
 	  <img class="kontakter" src="Images/Kontakter ikon.png"  alt=""/>
 		
@@ -225,8 +233,48 @@
 		<div class="menutekstarrow">
 	    <img class="arrow" src="Images/Arrow ikon.png"  alt=""/> </div>
 	</div>
+		
 	
 	
+</div>
+	
+
+<div class="varetotalmenu">
+	
+	<div class="varemenuheader">
+		<h1 class="vareheadertekst">Antal Varer: 1</h1>
+	
+	</div>
+	
+	<div class="varetekst">
+		<div class="varetekstholder">
+		<h1 class="varetekstinfo">Varer:</h1>
+		</div>
+		
+		<div class="vareprisfelt">
+			<h1 class="varetekstinfo"> 100 DKK</h1>
+		</div>
+	</div>
+	
+	<div class="varetekst">
+		<div class="varetekstholder">
+		<h1 class="varetekstinfo">Fragt:</h1>
+		</div>
+		
+		<div class="vareprisfelt">
+			<h1 class="varetekstinfo"> 69 DKK</h1>
+		</div>
+	</div>
+	
+	<div class="varetotal">
+		<div class="varetekstholder">
+		<h1 class="varetotaltekstinfo">Total:</h1>
+		</div>
+		
+		<div class="vareprisfelt">
+			<h1 class="varetotaltekstinfo"> 169 DKK</h1>
+		</div>
+	</div>
 	
 </div>
 
@@ -357,5 +405,38 @@
 	<img id="emerke" src="Images/Emærket ikon.png"  alt=""/> </div>
 	
 
-</body>
-</html>
+	
+	
+	
+	
+	
+	<button class="activate" onclick="ShowHide()">show/hide</button>
+	
+	<div id="showHide">
+		
+	</div>
+	
+	<script>
+	
+	function ShowHide()
+		{
+			let el = document.getElementsByName('menubar')
+			if(el.style.visibility == 'visible'){
+				el.style.visibility= 'hidden'
+			}
+			
+			else
+				{
+					el.style.visibility = 'visible'
+				}
+		}
+	</script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
