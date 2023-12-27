@@ -107,17 +107,117 @@ align-items:center;
 
 }
 
+
+.menubar
+{
+ height:auto;
+	width:280px;
+ justify-content:center;
+ position:absolute;
+ align-content: center;
+ text-align: center;
+ background-color:#085D82;
+ 
+}
+
+.menuheader
+{
+ 
+ display:flex;
+ align-content:center;
+ height:70px;
+ width:280px;
+ justify-content: center;
+ text-align:center;
+ background-color:#057AAD;
+}
+
+.menuheadertekst
+{
+ font-size:30px;
+ margin:auto;
+ color:white;
+}
+
+
+
+.menutekst
+{
+	display:flex;
+	justify-content: space-around;
+	align-content:center;
+	text-align:center;
+	z-index:1;
+}
+
+.menutekstholder
+{
+  width:80%
+}
+
+.menutekstarrow
+{
+	width:20%;
+	justify-content:center;
+
+	align-content:center;
+
+	overflow:hidden;
+}
+
+.menutekstinfo
+{
+	font-size:20px;
+	color:white;
+}
+
+.arrow
+{
+	height:20px;
+	justify-content:center;
+	margin-top:17px;
+	
+    
+	
+	
+}
+
+
+.sidemenubar
+{
+ height:auto;
+ width:280px;
+ justify-content:center;
+ position:absolute;
+ align-content: center;
+ text-align: center;
+ background-color:#064B69;
+ left:280px;
+}
+
+.sidemenuheader
+{
+ 
+ display:flex;
+ align-content:center;
+ height:70px;
+ width:280px;
+ justify-content: center;
+ text-align:center;
+ background-color:#085D82;
+}
+
 .footerunderhead
 {
 	
-	min-height: 15vh;
+	min-height: 45vh;
 	
 	
+	
+	justify-content: space-around;
 	display:flex;
-	justify-content: center;
-	align-conten:center;
-	maring:auto;
-	text-align:center;
+	
+	
 	
 		
 	overflow:hidden;
@@ -263,16 +363,53 @@ align-items:center;
 	flex:0 0 1;
 }
 
+#fragt
+{
+	
+	height:200px;
+	margin-top:55px;
+	margin-left:-50px;
+}
+
+#robot
+{
+	
+	height:200px;
+	margin-top:55px;
+	margin-left:-10px;
+}
+
+#returret
+{
+	
+	height:202px;
+	margin-top:55px;
+	margin-left:-10px;
+}
+
+
+
+#emerke
+{
+	
+	height:210px;
+	margin-top:60px;
+	margin-left:-10px;
+}
+
+
 .headlineelektronik
 {
 	color:#085D82;
 	
 	font-size: 80px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; 
 	font-family:"Segoe UI";
+		
 	position:absolute;
 	display:flex;	
-	top:50%;
-	left:38%;
+	top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 	align-content:center;
 	
 	text-shadow:0 0px 30px #484A4A;
@@ -282,9 +419,13 @@ align-items:center;
 }
 .elektronik
 {
+	 position: relative;
+  text-align: center;
+  
 	margin:auto;
 	margin-top:35px;
-	display:flex;
+	z-index:-10;
+	
 	justify-content: center;
 	align-content: center;
 	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -294,7 +435,7 @@ align-items:center;
 	width:70%;
 	height:300px;
 	background:#0A79A7;
-}
+	}
 .elektronikbillede
 {
 	width:100%;
