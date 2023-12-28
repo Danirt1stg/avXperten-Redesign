@@ -32,6 +32,7 @@ h1 { font-family: "Segoe UI"; font-size: 50px; font-style: normal; font-variant:
 	height: 90px;
 	
 	cursor:pointer;
+	padding-top:15px;
 	
 	
 	
@@ -68,6 +69,24 @@ h1 { font-family: "Segoe UI"; font-size: 50px; font-style: normal; font-variant:
 	color: #707070;
 	opacity: 50%;
 	margin-left:20px;
+	width-left:auto;
+}
+
+#searchtekstfelt
+{
+	color: #707070;
+	opacity: 100%;
+	margin-left:-100px;
+	width:1000px;
+	border:rgba(31,31,31,1.00);
+	height:23px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	
+}
+
+#searchtekstfelt:active + #searchtekst
+{
+	display:none
 }
 
 .searchikon
@@ -97,6 +116,7 @@ height:50px;
 cursor:pointer;
 	align-items:center;
 	padding:20px;
+	margin-top:2px;
 	
 }
 
@@ -143,6 +163,7 @@ margin-top:-35px;
  font-size:28px;
  margin:auto;
  color:white;
+ 
 }
 
 
@@ -151,6 +172,8 @@ margin-top:-35px;
 {
 	display:flex;
 	justify-content: space-around;
+	text-align:start; 
+	margin-left:10px;
 	
 	
 	z-index:1;
@@ -171,6 +194,7 @@ margin-top:-35px;
 	align-content:center;
 
 	overflow:hidden;
+	
 }
 
 .menutekstinfo
@@ -184,6 +208,7 @@ margin-top:-35px;
 	height:20px;
 	justify-content:center;
 	margin-top:17px;
+	margin-left:25px;
 	
     
 	
@@ -682,6 +707,16 @@ input [type="checkbox"]
 	
 }
 
+.footertekst
+{
+	font-size: 40px;
+	margin-top:25px;
+	width:auto;
+	color:white;
+}
 
-
-
+#erhvervskundefix
+{
+	line-height:40px;
+	margin-top:35px;
+}
