@@ -562,7 +562,7 @@ input [type="checkbox"]
 
 .headlineelektronik
 {
-	color:#054059;
+	color:white;
 	
 	font-size: 80px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; 
 	font-family:"Segoe UI";
@@ -574,7 +574,7 @@ input [type="checkbox"]
   transform: translate(-50%, -50%);
 	align-content:center;
 	
-	text-shadow:0 0px 20px white;
+	text-shadow:0 0px 20px black;
 	
 	
 		
@@ -754,8 +754,8 @@ input [type="checkbox"]
 	position:absolute;
 	width:auto;
 	height:auto;
-	text-shadow:0 0px 20px white;
-	color:#054059;
+	text-shadow:0 0px 20px black;
+	color:white;
 	
 }
 
@@ -764,8 +764,8 @@ input [type="checkbox"]
 	position:absolute;
 	width:auto;
 	height:auto;
-	text-shadow:0 0px 20px white;
-	color:#054059;
+	text-shadow:0 0px 20px black;
+	color:white;
 }
 
 .headline3
@@ -773,8 +773,8 @@ input [type="checkbox"]
 	position:absolute;
 	width:auto;
 	height:auto;
-	text-shadow:0 0px 20px white;
-	color:#054059;
+	text-shadow:0 0px 20px black;
+	color:white;
 }
 
 .headline4
@@ -782,8 +782,8 @@ input [type="checkbox"]
 	position:absolute;
 	width:auto;
 	height:auto;
-	text-shadow:0 0px 20px white;
-	color:#054059;
+	text-shadow:0 0px 20px black;
+	color:white;
 }
 
 .headline5
@@ -791,8 +791,8 @@ input [type="checkbox"]
 	position:absolute;
 	width:auto;
 	height:auto;
-	text-shadow:0 0px 20px white;
-	color:#054059;
+	text-shadow:0 0px 20px black;
+	color:white;
 }
 
 .nyheder
