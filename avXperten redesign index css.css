@@ -316,7 +316,7 @@ margin-top:-35px;
  background-color:#085D82;
  right: 0px;
 	display:none;
-	top:155px;
+	top:-35px;
 }
 
 .vareheadertekst
@@ -815,7 +815,7 @@ input [type="checkbox"]
 {
 	
 	position:absolute;
-	top:90px;
+	top:-100px;
 	height:50px;
 	width:50px;
 	left:17px;
@@ -851,7 +851,7 @@ input [type="checkbox"]
 {
 	
 	position:absolute;
-	top:232px;
+	top:40px;
 	height:40px;
 	width:500px;
 	left:17px;
@@ -877,8 +877,8 @@ input [type="checkbox"]
 {
 	position:absolute;
 	left:1500px;
-	top:100px;
-	height:40px;
+	top:-100px;
+	height:60px;
 	width:10%;
 	z-index:120;
 	opacity:0;
@@ -911,4 +911,11 @@ input [type="checkbox"]
 {
 	line-height:40px;
 	margin-top:35px;
+}
+
+.tabs
+{
+	position:sticky;
+	top:100px;
+	z-index:150;
 }
